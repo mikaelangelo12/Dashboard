@@ -79,11 +79,18 @@ form {
 }
 
 input {
-  background-color: #eee;
+  background-color: #b16565;
+  color: #fff;
+  border-radius: 20px;
   border: none;
   padding: 12px 15px;
   margin: 8px 0;
   width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: bold;
 }
 
 .containerLogin {
@@ -155,9 +162,10 @@ input {
 
 .card {
   background: #a90000;
+  background-image: url("/src/img/bgLogin.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0 0;
   color: #FFFFFF;
   position: relative;
   left: -100%;
@@ -218,16 +226,22 @@ input {
   width: 40px;
 }
 
-footer {
-  background-color: #222;
+.social:hover {
+  background-color: #a90000;
   color: #fff;
-  font-size: 14px;
-  bottom: 0;
-  position: fixed;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 999;
+}
+
+.social:active {
+  transform: scale(0.95);
+}
+
+.social:focus {
+  outline: none;
+}
+
+.social {
+  letter-spacing: 1px;
+  transition: transform 80ms ease-in;
 }
 
 /*# sourceMappingURL=login.css.map */
