@@ -5,39 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oscorp</title>
+    <link rel="stylesheet" href="/src/css/login.css"/>
+    <link rel="stylesheet" href="/src/css/login.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!--  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">-->
 </head>
 <body>
-    <div class="containerLogin">
 
-        <form action="" class="">
+    <div class="containerLogin" id="containerLogin">
 
-            <h2>Login</h2>
-            <i class="bi bi-google"></i>
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-twitter"></i>
-            <input type="text" name="email" placeholder="Email" requered>
-            <input type="password" name="password" placeholder="Senha" requered>
-            <p>Esqueceu a Senha?</p>
-            <input type="submit" value="Login">
+        <div class="formContainer criarContaContainer">
 
-        </form>
+            <form action="#">
 
-        <form action="" class="" id="">
+                <h1>Criar sua Conta</h1>
 
-            <h2>Criar Conta</h2>
-            <i class="bi bi-google"></i>
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-twitter"></i>
-            <input type="text" name="username" placeholder="Nome" requered>
-            <input type="text" name="email" placeholder="Email" requered>
-            <input type="password" name="password" placeholder="Senha" requered>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
 
-        </form>
+                <input type="text" placeholder="Nome" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Senha" />
+                <button>Criar Conta</button>
+
+            </form>
+
+        </div>
+
+        <div class="formContainer entrarContainer ">
+
+            <form action="#">
+
+                <h1>Entrar</h1>
+
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Senha" />
+                <a href="#">Esqueceu sua senha?</a>
+                <button>Entrar</button>
+
+            </form>
+        </div>
+
+        <div class="cardContainer">
+
+            <div class="card">
+
+                <div class="card-panel card-left">
+                    <h1>Bem Vindo</h1>
+                    <p>Se você já tem uma conta clique aqui</p>
+                    <button class="ghost" id="entrarConta">Entrar na Sua Conta</button>
+                </div>
+
+                <div class="card-panel card-right">
+                    <h1>Olá,</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button class="ghost" id="criarConta">Criar uma nova conta</button>
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="/src/js/login.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>-->
 </body>
 </html>
