@@ -160,10 +160,10 @@ input {
 
 .card {
 	background: #a90000;
-
+    background-image: url("/src/img/bgLogin.jpg");
+    background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 0 0;
 	color: #FFFFFF;
 	position: relative;
 	left: -100%;
