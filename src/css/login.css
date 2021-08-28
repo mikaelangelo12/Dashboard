@@ -244,4 +244,9 @@ input {
   transition: transform 80ms ease-in;
 }
 
+.card-panel img {
+  width: 230px !important;
+  margin-bottom: 20px;
+}
+
 /*# sourceMappingURL=login.css.map */
