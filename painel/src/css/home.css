@@ -1,0 +1,24 @@
+body {
+  background-color: #222222 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
+}
+
+.containerPainel {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: 95%;
+  max-width: 120%;
+  min-height: 90%;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=home.css.map */
